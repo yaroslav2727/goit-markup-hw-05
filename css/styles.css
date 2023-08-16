@@ -839,10 +839,6 @@ input, textarea {
 }
 
 .contact-form-label-terms {
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
     font-size: 12px;
     line-height: 1.17;
     color: var(--color-text-lightslate);
@@ -850,9 +846,6 @@ input, textarea {
 }
 
 .contact-form-label-terms-icon {
-    position: absolute;
-    top: 4px;
-    left: 3px;
     fill: var(--color-light-cloud);
 
     opacity: 0;

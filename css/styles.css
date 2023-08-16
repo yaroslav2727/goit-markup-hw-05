@@ -896,6 +896,10 @@ input, textarea {
     fill: var(--color-light-cloud);
 }
 
+.contact-form-input-terms:focus+.contact-form-label-terms>.contact-form-custom-checkbox {
+    border-color: var(--color-primary-iris);
+}
+
 .contact-form-label-terms-link {
     color: var(--color-primary-iris);
     text-decoration: underline;
